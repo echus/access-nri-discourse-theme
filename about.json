@@ -1,12 +1,12 @@
 {
   "name": "ACCESS-NRI Discourse Theme",
-  "about_url": "",
-  "license_url": "",
+  "about_url": "https://github.com/echus/access-nri-discourse-theme",
+  "license_url": "https://github.com/echus/access-nri-discourse-theme",
    "assets": {
         "asset-variable": "assets/background.svg"
    },
    "color_schemes": {
-       "color scheme name": {
+       "access-nri-light": {
           "primary": "black",
           "secondary": "white",
           "tertiary": "005B94",
