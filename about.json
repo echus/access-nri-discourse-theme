@@ -1,0 +1,24 @@
+{
+  "name": "ACCESS-NRI Discourse Theme",
+  "about_url": "",
+  "license_url": "",
+   "assets": {
+        "asset-variable": "assets/background.svg"
+   },
+   "color_schemes": {
+       "color scheme name": {
+          "primary": "black",
+          "secondary": "white",
+          "tertiary": "005B94",
+          "quaternary": "005B94",
+          "header_background": "005B94",
+          "header_primary": "white",
+          "highlight": "A5CD39",
+          "danger": "F7941D",
+          "success": "A5CD39",
+          "love": "652D90",
+          "selected": "gray",
+          "hover": "whitesmoke"
+        }
+    }
+}
