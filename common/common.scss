@@ -1,0 +1,21 @@
+// Fonts
+
+@font-face {
+  font-family: "Vogue Bold";
+  src: url($vogue-bold-font) format("opentype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url($inter-font) format("opentype supports variations"),
+       url($inter-font) format("opentype-variations");
+  font-weight: 100 900;
+}
+
+body {
+  font-family: "Inter";
+}
+
+h1 {
+  font-family: "Vogue Bold";
+}
