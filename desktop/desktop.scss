@@ -1,10 +1,21 @@
 .category-title-header {
     background-color: white;
+    border-left: 2px solid #e9e9e9 !important;
+    border-radius: 14px;
 }
 
 .category-boxes .category-box, .category-boxes-with-topics .category-box  {
     background-color: white;
     transition: box-shadow .3s;
+    border-radius: 14px;
+    border-width: 2px;
+    border-color: var(--primary-low);
+    border-style: solid;
+}
+
+.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
+    border-radius: var(--d-border-radius);
+    border-width: 0;
 }
 
 .category-boxes .category-box:hover, .category-boxes-with-topics .category-box:hover {
@@ -25,18 +36,28 @@
     gap: 2ch;
 }
 
+.more-topics__container .more-topics__list .topic-list-header:after {
+    height: 0;
+}
+
+.more-topics__container .more-topics__list .topic-list-body .topic-list-item:first-child td {
+    padding-top: 0.8em;
+}
+
 div.topic-avatar {
     border-top: none;
 }
 
 .topic-body {
-    background-color: white;
+    background-color: white !important;
 }
 
 :root {
     --topic-body-width: 72ch;
     --topic-body-width-padding: 5ch;
     --d-border-radius: 7px;
+    --header_background: #005b94;
+    --header_primary-low-mid: gainsboro;
 }
 
 .small-action.topic-post-visited div.topic-post-visited-line,
@@ -47,4 +68,29 @@ div.topic-avatar {
 .topic-map,
 section.post-menu-area {
     margin-right: var(--topic-body-width-padding);
+}
+
+.category.category-box::before {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    content: "";
+    width: 9px;
+    height: 100%;
+    background-color: var(--category-badge-color);
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+tbody {
+    background-color: white;
+}
+
+.list-controls .combo-box .combo-box-header {
+    background-color: white;
+}
+
+.category-boxes .category-box .category-logo.aspect-image img, 
+.category-boxes-with-topics .category-box .category-logo.aspect-image img {
+    --height: 4em;
 }
