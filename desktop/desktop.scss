@@ -1,0 +1,50 @@
+.category-title-header {
+    background-color: white;
+}
+
+.category-boxes .category-box, .category-boxes-with-topics .category-box  {
+    background-color: white;
+    transition: box-shadow .3s;
+}
+
+.category-boxes .category-box:hover, .category-boxes-with-topics .category-box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.category-boxes div.description {
+    font-size: var(--font-down-1);
+    margin-top: 0.5em;
+    line-height: 1.15;
+}
+
+.category-box a h3 {
+    line-height: 1;
+}
+
+.onscreen-post .row {
+    gap: 2ch;
+}
+
+div.topic-avatar {
+    border-top: none;
+}
+
+.topic-body {
+    background-color: white;
+}
+
+:root {
+    --topic-body-width: 72ch;
+    --topic-body-width-padding: 5ch;
+    --d-border-radius: 7px;
+}
+
+.small-action.topic-post-visited div.topic-post-visited-line,
+.small-action div.small-action-desc {
+    width: 100%;
+}
+
+.topic-map,
+section.post-menu-area {
+    margin-right: var(--topic-body-width-padding);
+}

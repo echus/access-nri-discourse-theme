@@ -1,24 +1,32 @@
 {
-  "name": "ACCESS-NRI Discourse Theme",
-  "about_url": "https://github.com/echus/access-nri-discourse-theme",
-  "license_url": "https://github.com/echus/access-nri-discourse-theme",
+  "name": "ACCESS-NRI Hive Forum theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
   "assets": {
-     "asset-variable": "assets/background.svg"
   },
   "color_schemes": {
-    "ACCESS-NRI Light": {
-      "primary": "222222",
-      "secondary": "ffffff",
-      "tertiary": "005b94",
-      "quaternary": "a5cd39",
-      "header_background": "ffffff",
-      "header_primary": "333333",
-      "highlight": "ffff4d",
-      "danger": "c80001",
-      "success": "009900",
-      "love": "fa6c8d",
-      "selected": "d1f0ff",
-      "hover": "f2f2f2"
+    "ACCESS-NRI": {
+      "primary": "212121",
+      "secondary": "fafafa",
+      "tertiary": "faa61a",
+      "quaternary": "000000",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "ffff8d",
+      "danger": "ff5722",
+      "success": "4caf50",
+      "love": "fa6c8d"
     }
-  }
+  },
+  "components": [
+    "https://github.com/naidihr/discourse-category-headers"
+  ],
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
