@@ -1,4 +1,4 @@
-# ACCESS-NRI discourse theme
+# ACCESS Hive Forum discourse theme
 
 ## Installation
 
