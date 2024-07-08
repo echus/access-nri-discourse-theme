@@ -24,17 +24,6 @@
     }
   },
   "components": [
-    "https://github.com/naidihr/discourse-category-headers.git",
-    "https://github.com/merefield/discourse-tc-coloured-text.git",
-    "https://github.com/discourse/discourse-custom-header-links.git",
-    "https://github.com/discourse/DiscoTOC",
-    "https://github.com/VaperinaDEV/discourse-custom-reactions.git",
-    "https://github.com/discourse/discourse-kanban-theme.git",
-    "https://github.com/discourse/discourse-mermaid-theme-component.git",
-    "https://github.com/discourse/hljs-theme-picker",
-    "https://github.com/discourse/Discourse-nav-links-component.git",
-    "https://github.com/discourse/discourse-topic-thumbnails.git",
-    "https://github.com/discourse/discourse-welcome-link-banner",
     "https://github.com/discourse/discourse-search-banner.git"
   ],
   "modifiers": {
