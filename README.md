@@ -22,3 +22,11 @@ To set up text for the search component:
 2.  Search for `Search banner`
 3.  Add text for `search\_banner.headline`
 4.  Add text for `search\_banner.subhead`
+
+## Development
+
+Install pre-commit hooks: `pre-commit install`.
+
+Run pre-commit checks/formatters on all files: `pre-commit run --all-files`.
+
+Pre-commit pipeline configuration located in `.pre-commit-config.yaml`.
