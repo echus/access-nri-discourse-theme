@@ -7,8 +7,7 @@
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
+  "assets": {},
   "color_schemes": {
     "ACCESS-NRI": {
       "primary": "212121",
@@ -37,7 +36,6 @@
     "https://github.com/discourse/discourse-welcome-link-banner",
     "https://github.com/discourse/discourse-search-banner.git"
   ],
-  "modifiers": {
-  },
+  "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
