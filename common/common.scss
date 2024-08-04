@@ -82,6 +82,7 @@ div.search-banner {
   div.custom-search-banner-wrap {
     p {
       text-align: left;
+      color: var(--primary-high);
     }
     h1 {
       color: var(--custom-search_text_color);
@@ -142,10 +143,4 @@ body.search-page {
   div.topic-category {
     margin-top: 1em;
   }
-}
-
-// Sidebar
-.d-sidebar {
-  background-color: var(--primary-low);
-  border-right: 2px solid var(--primary-high);
 }
