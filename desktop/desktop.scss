@@ -82,6 +82,10 @@ div.search-menu-panel {
   line-height: 1;
 }
 
+.category.category-box {
+  border: 2px solid var(--category-badge-color);
+}
+
 .category.category-box::before {
   position: absolute;
   top: 0;
