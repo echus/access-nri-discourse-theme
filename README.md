@@ -34,7 +34,7 @@ To set up text for the search component:
 
 ### Colours
 
-Most page colours are defined in `about.json` and imported as a colour scheme with the name "ACCESS-NRI" on theme install. They can be edited [here](https://forum.access-hive.org.au/admin/customize/colors).
+Most page colours are defined in the theme's colourscheme in `about.json`.
 
 There are a few manually overriden colours defined in `common/colour_definitions.scss`.
 
