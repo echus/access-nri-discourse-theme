@@ -145,12 +145,10 @@ div.topic-avatar {
   border-radius: var(--large-border-radius);
 }
 
-.topic-map {
-  border-top: none !important;
-}
-
+.topic-avatar,
+.topic-map,
 .small-action-desc {
-  border: none !important;
+  border-top: none !important;
 }
 
 .small-action.topic-post-visited div.topic-post-visited-line,
