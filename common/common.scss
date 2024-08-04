@@ -42,7 +42,8 @@ header.d-header ul.d-header-icons {
 
 .header-sidebar-toggle button:focus:hover,
 .header-sidebar-toggle button:hover {
-  background: transparent !important;
+  color: var(--primary-low);
+  background: transparent;
 }
 
 // Custom navigation bar links
