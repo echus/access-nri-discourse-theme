@@ -141,14 +141,16 @@ div.topic-avatar {
 
 .topic-body {
   background-color: var(--custom-text_background) !important;
-  border-top: none !important;
+  border: 1px solid var(--primary-low) !important;
+  border-radius: var(--d-border-radius);
 }
 
 .topic-map {
   border-top: none !important;
 }
 
-.topic-timer-info {
+.topic-timer-info,
+.small-action {
   border: none !important;
 }
 
