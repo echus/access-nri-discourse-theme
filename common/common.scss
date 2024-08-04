@@ -42,8 +42,14 @@ header.d-header ul.d-header-icons {
 
 .header-sidebar-toggle button:focus:hover,
 .header-sidebar-toggle button:hover {
-  color: var(--primary-low) !important;
   background: transparent !important;
+}
+
+.discourse-no-touch .btn-flat:hover .d-icon,
+.discourse-no-touch .json-editor-btn-collapse:hover .d-icon,
+.discourse-no-touch .btn-flat:focus .d-icon,
+.discourse-no-touch .json-editor-btn-collapse:focus .d-icon {
+  color: var(--primary-low) !important;
 }
 
 // Custom navigation bar links
