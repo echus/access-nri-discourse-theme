@@ -141,7 +141,11 @@ div.topic-avatar {
 
 .topic-body {
   background-color: var(--custom-text_background) !important;
-  border-top: 0px !important;
+  border-top: none !important;
+}
+
+.topic-map {
+  border-top: none !important;
 }
 
 .small-action.topic-post-visited div.topic-post-visited-line,
