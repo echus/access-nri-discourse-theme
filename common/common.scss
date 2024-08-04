@@ -1,8 +1,6 @@
 // Default border radius
 :root {
   --default-border-radius: 10px;
-  --nav-icon-color: whitesmoke;
-  --nav-icon-color-hover: lightgray;
 }
 
 // ACCESS-NRI branding font
@@ -14,7 +12,7 @@
 // Navigation bar
 header.d-header ul.d-header-icons {
   svg.d-icon {
-    fill: var(--nav-icon-color);
+    fill: var(--custom-nav_icon_color);
   }
   .active .icon {
     background-color: transparent;
@@ -33,7 +31,7 @@ header.d-header ul.d-header-icons {
   a.icon:hover {
     background: transparent;
     svg.d-icon {
-      fill: var(--nav-icon-color-hover);
+      fill: var(--custom-nav_icon_color_hover);
     }
   }
 }

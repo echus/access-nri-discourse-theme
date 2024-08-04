@@ -23,11 +23,20 @@ $search_text_color: dark-light-choose(
 );
 
 // Navigation bar icon colours
-$nav-icon-color: whitesmoke;
-$nav-icon-color-hover: lightgray;
+$light-nav-icon-color: whitesmoke;
+$light-nav-icon-color-hover: lightgray;
+$dark-nav-icon-color: lightgray;
+$dark-nav-icon-color-hover: gray;
+$nav_icon_color: dark-light-choose($light-nav-icon-color, $dark-nav-icon-color);
+$nav_icon_color_hover: dark-light-choose(
+  $light-nav-icon-color-hover,
+  $dark-nav-icon-color-hover
+);
 
 :root {
   --custom-text_background: #{$text_background};
   --custom-category_tile_color: #{$category_tile_color};
   --custom-search_text_color: #{$search_text_color};
+  --custom-nav_icon_color: #{$nav_icon_color};
+  --custom-nav_icon_color_hover: #{$nav_icon_color_hover};
 }
