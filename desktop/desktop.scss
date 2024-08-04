@@ -2,8 +2,8 @@
 :root {
   --topic-body-width: 72ch;
   --topic-body-width-padding: 5ch;
-  --d-border-radius: 7px;
-  --input-border-radius: 10px;
+  --large-border-radius: 14px;
+  --small-border-radius: 7px;
   --header_background: #005b94;
   --custom-text_background-low-mid: gainsboro;
 }
@@ -54,7 +54,7 @@ div.search-menu-panel {
 .category-boxes-with-topics .category-box {
   background-color: var(--custom-text_background);
   transition: box-shadow 0.3s;
-  border-radius: 14px;
+  border-radius: var(--large-border-radius);
   border-width: 2px;
   border-color: var(--primary-low);
   border-style: solid;
@@ -62,7 +62,7 @@ div.search-menu-panel {
 
 .category-boxes .category-box-inner,
 .category-boxes-with-topics .category-box-inner {
-  border-radius: var(--d-border-radius);
+  border-radius: var(--small-border-radius);
   border-width: 0;
 }
 
@@ -142,7 +142,7 @@ div.topic-avatar {
 .topic-body {
   background-color: var(--custom-text_background) !important;
   border: 1px solid var(--primary-low) !important;
-  border-radius: var(--d-border-radius);
+  border-radius: var(--large-border-radius);
 }
 
 .topic-map {
