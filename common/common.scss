@@ -39,7 +39,7 @@ header.d-header ul.d-header-icons {
 // Burger menu
 // Burger menu icon color
 .header-sidebar-toggle button .d-icon {
-  color: var(--nav-icon-color);
+  color: var(--custom-nav_icon_color);
 }
 
 .header-sidebar-toggle button:focus:hover,
@@ -52,7 +52,7 @@ header.d-header ul.d-header-icons {
 .discourse-no-touch .json-editor-btn-collapse:hover .d-icon,
 .discourse-no-touch .btn-flat:focus .d-icon,
 .discourse-no-touch .json-editor-btn-collapse:focus .d-icon {
-  color: var(--nav-icon-color-hover) !important;
+  color: var(--custom-nav_icon_color_hover) !important;
 }
 
 // Custom navigation bar links
