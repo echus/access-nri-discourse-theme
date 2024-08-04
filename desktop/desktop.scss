@@ -141,6 +141,9 @@ div.topic-avatar {
 
 .topic-body {
   background-color: var(--custom-text_background) !important;
+  .clearfix {
+    border: 0px;
+  }
 }
 
 .small-action.topic-post-visited div.topic-post-visited-line,
