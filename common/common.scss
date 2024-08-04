@@ -38,9 +38,11 @@ header.d-header ul.d-header-icons {
 
 .header-sidebar-toggle button .d-icon {
   color: var(--primary-very-low);
-  &:hover {
-    background: transparent;
-  }
+}
+
+.header-sidebar-toggle button:focus:hover,
+.header-sidebar-toggle button:hover {
+  background: transparent !important;
 }
 
 // Custom navigation bar links
