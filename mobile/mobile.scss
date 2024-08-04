@@ -1,0 +1,26 @@
+:root {
+}
+
+.topic-body div.topic-meta-data {
+  margin-top: 0.5em;
+  margin-left: 65px;
+}
+
+body.category:not(.category-header) {
+  background-color: var(--custom-text_background);
+}
+
+.category-title-header {
+  .category-title-name h1 {
+    font-size: 1em;
+  }
+  .category-title-description .cooked {
+    line-height: 1;
+    font-size: 0.95em;
+  }
+}
+body:not(.category-header) {
+  .category-list .category-logo {
+    display: none;
+  }
+}

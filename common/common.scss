@@ -1,0 +1,116 @@
+:root {
+  --input-border-radius: 10px;
+}
+
+@font-face {
+  font-family: VogueBold;
+  src: url($VogueBold) format('truetype')
+}
+
+header.d-header ul.d-header-icons {
+  svg.d-icon {
+    fill: whitesmoke;
+  }
+  span.icon:hover, 
+  button.icon:hover, 
+  a.icon:hover {
+    // border: none;
+    background: transparent;
+    svg.d-icon {
+      fill: lightgrey;
+    }
+  }
+}
+
+.search-menu div.search-menu-panel {
+  background-color: var(--custom-text_background);
+  border-radius: var(--input-border-radius);
+}
+
+input[type="text"], input[type="date"], input[type="number"] {
+  background-color: var(--custom-text_background);
+  border-radius: var(--input-border-radius);
+}
+
+button.btn {
+  border-radius: var(--input-border-radius);
+}
+
+details.combo-box.select-kit,
+details.multi-select.select-kit {
+  summary.select-kit-header, 
+  summary.select-kit-header.multi-select-header, 
+  div.select-kit-body {
+    background-color: var(--custom-text_background);
+    border-radius: var(--input-border-radius);
+  }
+}
+
+details.select-kit.single-select.dropdown-select-box {
+  summary.select-kit-header,
+  div.select-kit-body {
+    border-radius: var(--input-border-radius);
+  }
+  div.select-kit-body {
+    background-color: var(--custom-text_background);
+  }
+}
+
+div.search-banner {
+  div.custom-search-banner-wrap {
+    p {
+      text-align: left;
+    }
+    h1 {
+      font-family: VogueBold;
+      text-align: left;
+    }
+    & > div.search-menu {
+      text-align: left;
+      margin: 0;
+    }
+  }
+}
+
+.search-menu div.search-input, .search-menu-container div.search-input {
+  background-color: var(--custom-text_background);
+  border-radius: var(--input-border-radius);
+}
+
+div.search-menu-panel div.results {
+  background-color: var(--custom-text_background);
+  border-radius: var(--input-border-radius);
+}
+
+body.search-page {
+  button.search-cta {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #search-in-category-body {
+    background-color: var(--custom-text_background);
+  }
+
+  div.search-results {
+    & > div {
+      background-color: var(--custom-text_background);
+      border-radius: var(--input-border-radius);
+    }
+  }
+}
+.category-title-header {
+  background-color: var(--custom-text_background);
+}
+
+#topic-title .title-wrapper {
+  div.topic-category {
+    margin-top: 1em;
+  }
+}
+
+.category-title-header {
+  border-left: 2px solid #e9e9e9 !important;
+  border-radius: 14px;
+}
+

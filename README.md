@@ -20,8 +20,8 @@ To set up text for the search component:
 
 1.  Navigate to: `your.site.com/admin/customize/components`
 2.  Search for `Search banner`
-3.  Add text for `search\_banner.headline`
-4.  Add text for `search\_banner.subhead`
+3.  Add text for `search_banner.headline`
+4.  Add text for `search_banner.subhead`
 
 ## Development
 

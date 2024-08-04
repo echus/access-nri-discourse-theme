@@ -1,5 +1,5 @@
 {
-  "name": "ACCESS-NRI Hive Forum theme",
+  "name": "ACCESS-NRI Hive Forum theme dev",
   "component": false,
   "license_url": null,
   "about_url": null,
@@ -7,7 +7,9 @@
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {},
+  "assets": {
+    "VogueBold": "assets/VogueBold.ttf"
+  },
   "color_schemes": {
     "ACCESS-NRI": {
       "primary": "212121",
@@ -34,7 +36,8 @@
     "https://github.com/discourse/Discourse-nav-links-component.git",
     "https://github.com/discourse/discourse-topic-thumbnails.git",
     "https://github.com/discourse/discourse-welcome-link-banner",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-search-banner.git",
+    "https://github.com/discourse/discourse-color-scheme-toggle"
   ],
   "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
