@@ -38,6 +38,9 @@ header.d-header ul.d-header-icons {
 
 .header-sidebar-toggle button .d-icon {
   color: whitesmoke;
+  &:hover {
+    background: transparent;
+  }
 }
 
 // Input boxes
