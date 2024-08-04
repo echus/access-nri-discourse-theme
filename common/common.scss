@@ -1,12 +1,15 @@
+// Default border radius
 :root {
   --input-border-radius: 10px;
 }
 
+// ACCESS-NRI branding font
 @font-face {
   font-family: VogueBold;
   src: url($VogueBold) format('truetype')
 }
 
+// Navigation bar
 header.d-header ul.d-header-icons {
   svg.d-icon {
     fill: whitesmoke;
@@ -14,7 +17,6 @@ header.d-header ul.d-header-icons {
   span.icon:hover,
   button.icon:hover,
   a.icon:hover {
-    // border: none;
     background: transparent;
     svg.d-icon {
       fill: lightgrey;
@@ -22,16 +24,13 @@ header.d-header ul.d-header-icons {
   }
 }
 
-.search-menu div.search-menu-panel {
-  background-color: var(--custom-text_background);
-  border-radius: var(--input-border-radius);
-}
-
+// Input boxes
 input[type="text"], input[type="date"], input[type="number"] {
   background-color: var(--custom-text_background);
   border-radius: var(--input-border-radius);
 }
 
+// Buttons
 button.btn {
   border-radius: var(--input-border-radius);
 }
@@ -56,6 +55,7 @@ details.select-kit.single-select.dropdown-select-box {
   }
 }
 
+// Homepage search banner
 div.search-banner {
   div.custom-search-banner-wrap {
     p {
@@ -73,6 +73,11 @@ div.search-banner {
   }
 }
 
+.search-menu div.search-menu-panel {
+  background-color: var(--custom-text_background);
+  border-radius: var(--input-border-radius);
+}
+
 .search-menu div.search-input, .search-menu-container div.search-input {
   background-color: var(--custom-text_background);
   border-radius: var(--input-border-radius);
@@ -83,6 +88,7 @@ div.search-menu-panel div.results {
   border-radius: var(--input-border-radius);
 }
 
+// Navigation bar search results dropdown
 body.search-page {
   button.search-cta {
     font-weight: bold;
@@ -100,17 +106,17 @@ body.search-page {
     }
   }
 }
+
+// Category-view page header
 .category-title-header {
   background-color: var(--custom-text_background);
+  border-left: 2px solid #e9e9e9 !important;
+  border-radius: 14px;
 }
 
+// Topic-view title
 #topic-title .title-wrapper {
   div.topic-category {
     margin-top: 1em;
   }
-}
-
-.category-title-header {
-  border-left: 2px solid #e9e9e9 !important;
-  border-radius: 14px;
 }
