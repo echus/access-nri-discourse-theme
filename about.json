@@ -1,5 +1,5 @@
 {
-  "name": "ACCESS-NRI Hive Forum theme dev",
+  "name": "ACCESS-NRI Hive Forum theme",
   "component": false,
   "license_url": null,
   "about_url": null,
@@ -13,7 +13,7 @@
   "color_schemes": {
     "ACCESS-NRI": {
       "primary": "212121",
-      "secondary": "fafafa",
+      "secondary": "f1f1f1",
       "tertiary": "faa61a",
       "quaternary": "000000",
       "header_background": "000000",
