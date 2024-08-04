@@ -143,3 +143,9 @@ body.search-page {
     margin-top: 1em;
   }
 }
+
+// Sidebar
+.sidebar-wrapper {
+  background-color: var(--primary-low);
+  border-right: 2px solid var(--primary-high);
+}
