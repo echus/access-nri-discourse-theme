@@ -15,7 +15,9 @@ header.d-header ul.d-header-icons {
     fill: whitesmoke;
   }
   svg.d-icon-bars {
-    fill: whitesmoke !important;
+    use {
+      fill: whitesmoke !important;
+    }
   }
   .active .icon {
     background-color: transparent;
