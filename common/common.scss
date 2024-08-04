@@ -6,7 +6,7 @@
 // ACCESS-NRI branding font
 @font-face {
   font-family: VogueBold;
-  src: url($VogueBold) format('truetype')
+  src: url($VogueBold) format("truetype");
 }
 
 // Navigation bar
@@ -34,13 +34,12 @@ header.d-header ul.d-header-icons {
       fill: lightgray;
     }
   }
-  .header-sidebar-toggle {
-    color: red;
-  }
 }
 
 // Input boxes
-input[type="text"], input[type="date"], input[type="number"] {
+input[type="text"],
+input[type="date"],
+input[type="number"] {
   background-color: var(--custom-text_background);
   border-radius: var(--input-border-radius);
 }
@@ -94,7 +93,8 @@ div.search-banner {
   border-radius: var(--input-border-radius);
 }
 
-.search-menu div.search-input, .search-menu-container div.search-input {
+.search-menu div.search-input,
+.search-menu-container div.search-input {
   background-color: var(--custom-text_background);
   border-radius: var(--input-border-radius);
 }

@@ -1,17 +1,26 @@
 // Body text background colors
 $dark-theme-text-background: #222222;
 $light-theme-text-background: #ffffff;
-$text_background: dark-light-choose($light-theme-text-background, $dark-theme-text-background);
+$text_background: dark-light-choose(
+  $light-theme-text-background,
+  $dark-theme-text-background
+);
 
 // Category tile text colors
 $dark-theme-category-tile-color: #ffffff;
 $light-theme-category-tile-color: #909090;
-$category_tile_color: dark-light-choose($light-theme-category-tile-color, $dark-theme-category-tile-color);
+$category_tile_color: dark-light-choose(
+  $light-theme-category-tile-color,
+  $dark-theme-category-tile-color
+);
 
 // Search banner text colours
 $dark-theme-search-text-color: #909090;
 $light-theme-search-text-color: #005b94;
-$search_text_color: dark-light-choose($light-theme-search-text-color, $dark-theme-search-text-color);
+$search_text_color: dark-light-choose(
+  $light-theme-search-text-color,
+  $dark-theme-search-text-color
+);
 
 :root {
   --custom-text_background: #{$text_background};

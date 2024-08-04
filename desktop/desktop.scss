@@ -11,7 +11,9 @@
 // TODO: What is this?
 body.category {
   table.category-list {
-    div.topics, td.topics, th.topics {
+    div.topics,
+    td.topics,
+    th.topics {
       text-align: center;
       .badge-notification {
         text-align: center;
@@ -48,22 +50,25 @@ div.search-menu-panel {
 }
 
 // Category list view
-.category-boxes .category-box, .category-boxes-with-topics .category-box  {
+.category-boxes .category-box,
+.category-boxes-with-topics .category-box {
   background-color: var(--custom-text_background);
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   border-radius: 14px;
   border-width: 2px;
   border-color: var(--primary-low);
   border-style: solid;
 }
 
-.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
+.category-boxes .category-box-inner,
+.category-boxes-with-topics .category-box-inner {
   border-radius: var(--d-border-radius);
   border-width: 0;
 }
 
-.category-boxes .category-box:hover, .category-boxes-with-topics .category-box:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.1);
+.category-boxes .category-box:hover,
+.category-boxes-with-topics .category-box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
 }
 
 .category-boxes div.description {
@@ -78,20 +83,20 @@ div.search-menu-panel {
 }
 
 .category.category-box::before {
-    position: absolute;
-    top: 0;
-    left: -1px;
-    content: "";
-    width: 9px;
-    height: 100%;
-    background-color: var(--category-badge-color);
-    border-top-left-radius: 9px;
-    border-bottom-left-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  content: "";
+  width: 9px;
+  height: 100%;
+  background-color: var(--category-badge-color);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
 }
 
 .category-boxes .category-box .category-logo.aspect-image img,
 .category-boxes-with-topics .category-box .category-logo.aspect-image img {
-    --height: 4em;
+  --height: 4em;
 }
 
 // Category list view navigation bar
@@ -122,26 +127,30 @@ div.search-menu-panel {
   height: 0;
 }
 
-.more-topics__container .more-topics__list .topic-list-body .topic-list-item:first-child td {
-    padding-top: 0.8em;
+.more-topics__container
+  .more-topics__list
+  .topic-list-body
+  .topic-list-item:first-child
+  td {
+  padding-top: 0.8em;
 }
 
 div.topic-avatar {
-    border-top: none;
+  border-top: none;
 }
 
 .topic-body {
-    background-color: var(--custom-text_background) !important;
+  background-color: var(--custom-text_background) !important;
 }
 
 .small-action.topic-post-visited div.topic-post-visited-line,
 .small-action div.small-action-desc {
-    width: 100%;
+  width: 100%;
 }
 
 .topic-map,
 section.post-menu-area {
-    margin-right: var(--topic-body-width-padding);
+  margin-right: var(--topic-body-width-padding);
 }
 
 tbody {
