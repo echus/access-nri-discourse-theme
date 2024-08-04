@@ -1,6 +1,8 @@
 // Default border radius
 :root {
-  --input-border-radius: 10px;
+  --default-border-radius: 10px;
+  --nav-icon-color: whitesmoke;
+  --nav-icon-color-hover: lightgray;
 }
 
 // ACCESS-NRI branding font
@@ -12,7 +14,7 @@
 // Navigation bar
 header.d-header ul.d-header-icons {
   svg.d-icon {
-    fill: var(--primary-very-low);
+    fill: var(--nav-icon-color);
   }
   .active .icon {
     background-color: transparent;
@@ -31,7 +33,7 @@ header.d-header ul.d-header-icons {
   a.icon:hover {
     background: transparent;
     svg.d-icon {
-      fill: var(--primary-low);
+      fill: var(--nav-icon-color-hover);
     }
   }
 }
@@ -63,12 +65,12 @@ input[type="text"],
 input[type="date"],
 input[type="number"] {
   background-color: var(--custom-text_background);
-  border-radius: var(--input-border-radius);
+  border-radius: var(--default-border-radius);
 }
 
 // Buttons
 button.btn {
-  border-radius: var(--input-border-radius);
+  border-radius: var(--default-border-radius);
 }
 
 // Dropdowns
@@ -78,14 +80,14 @@ details.multi-select.select-kit {
   summary.select-kit-header.multi-select-header,
   div.select-kit-body {
     background-color: var(--custom-text_background);
-    border-radius: var(--input-border-radius);
+    border-radius: var(--default-border-radius);
   }
 }
 
 details.select-kit.single-select.dropdown-select-box {
   summary.select-kit-header,
   div.select-kit-body {
-    border-radius: var(--input-border-radius);
+    border-radius: var(--default-border-radius);
   }
   div.select-kit-body {
     background-color: var(--custom-text_background);
@@ -113,18 +115,18 @@ div.search-banner {
 
 .search-menu div.search-menu-panel {
   background-color: var(--custom-text_background);
-  border-radius: var(--input-border-radius);
+  border-radius: var(--default-border-radius);
 }
 
 .search-menu div.search-input,
 .search-menu-container div.search-input {
   background-color: var(--custom-text_background);
-  border-radius: var(--input-border-radius);
+  border-radius: var(--default-border-radius);
 }
 
 div.search-menu-panel div.results {
   background-color: var(--custom-text_background);
-  border-radius: var(--input-border-radius);
+  border-radius: var(--default-border-radius);
 }
 
 // Navigation bar search results dropdown
@@ -141,7 +143,7 @@ body.search-page {
   div.search-results {
     & > div {
       background-color: var(--custom-text_background);
-      border-radius: var(--input-border-radius);
+      border-radius: var(--default-border-radius);
     }
   }
 }

@@ -22,6 +22,10 @@ $search_text_color: dark-light-choose(
   $dark-theme-search-text-color
 );
 
+// Navigation bar icon colours
+$nav-icon-color: whitesmoke;
+$nav-icon-color-hover: lightgray;
+
 :root {
   --custom-text_background: #{$text_background};
   --custom-category_tile_color: #{$category_tile_color};
