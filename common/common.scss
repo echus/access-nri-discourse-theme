@@ -14,9 +14,6 @@ header.d-header ul.d-header-icons {
   svg.d-icon {
     fill: whitesmoke;
   }
-  svg.d-icon-bars {
-    fill: whitesmoke;
-  }
   .active .icon {
     background-color: transparent;
   }
@@ -34,7 +31,7 @@ header.d-header ul.d-header-icons {
   a.icon:hover {
     background: transparent;
     svg.d-icon {
-      fill: lightgrey;
+      fill: whitesmoke;
     }
   }
 }
