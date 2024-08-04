@@ -34,11 +34,10 @@ header.d-header ul.d-header-icons {
       fill: lightgray;
     }
   }
-  button {
-    .header-sidebar-toggle .d-icon {
-      color: red !important;
-    }
-  }
+}
+
+.header-sidebar-toggle button .d-icon {
+  color: red !important;
 }
 
 // Input boxes
