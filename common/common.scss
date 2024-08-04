@@ -23,6 +23,9 @@ header.d-header ul.d-header-icons {
 }
 
 .search-menu div.search-menu-panel {
+  h1 {
+    color: var(--custom-search_text_color);
+  }
   background-color: var(--custom-text_background);
   border-radius: var(--input-border-radius);
 }
