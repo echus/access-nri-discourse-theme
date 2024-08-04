@@ -12,7 +12,7 @@
 // Navigation bar
 header.d-header ul.d-header-icons {
   svg.d-icon {
-    fill: whitesmoke;
+    fill: var(--primary-very-low);
   }
   .active .icon {
     background-color: transparent;
@@ -31,13 +31,13 @@ header.d-header ul.d-header-icons {
   a.icon:hover {
     background: transparent;
     svg.d-icon {
-      fill: lightgray;
+      fill: var(--primary-low);
     }
   }
 }
 
 .header-sidebar-toggle button .d-icon {
-  color: whitesmoke;
+  color: var(--primary-very-low);
   &:hover {
     background: transparent;
   }
@@ -139,7 +139,7 @@ body.search-page {
 // Category-view page header
 .category-title-header {
   background-color: var(--custom-text_background);
-  border-left: 2px solid #e9e9e9 !important;
+  border-left: 2px solid var(--primary-low) !important;
   border-radius: 14px;
 }
 
