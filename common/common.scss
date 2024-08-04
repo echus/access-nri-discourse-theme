@@ -15,7 +15,10 @@ header.d-header ul.d-header-icons {
     fill: whitesmoke;
   }
   .active .icon {
-    background-color: red;
+    background-color: transparent;
+  }
+  .color-scheme-toggler {
+    background-color: transparent;
   }
   span.icon:hover,
   button.icon:hover,
