@@ -38,9 +38,10 @@ header.d-header ul.d-header-icons {
   }
 }
 
-// Burger menu - ensure bg is transparent on hover
+// Burger menu
+// Burger menu icon color
 .header-sidebar-toggle button .d-icon {
-  color: var(--primary-very-low);
+  color: var(--nav-icon-color);
 }
 
 .header-sidebar-toggle button:focus:hover,
@@ -48,11 +49,12 @@ header.d-header ul.d-header-icons {
   background: transparent !important;
 }
 
+// Burger menu icon hover color
 .discourse-no-touch .btn-flat:hover .d-icon,
 .discourse-no-touch .json-editor-btn-collapse:hover .d-icon,
 .discourse-no-touch .btn-flat:focus .d-icon,
 .discourse-no-touch .json-editor-btn-collapse:focus .d-icon {
-  color: var(--primary-low) !important;
+  color: var(--nav-icon-color-hover) !important;
 }
 
 // Custom navigation bar links
