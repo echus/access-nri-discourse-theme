@@ -23,6 +23,9 @@ header.d-header ul.d-header-icons {
   #search-button {
     border: 0px;
   }
+  #search-button:after {
+    border: 0px;
+  }
   span.icon:hover,
   button.icon:hover,
   a.icon:hover {
