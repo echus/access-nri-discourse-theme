@@ -11,10 +11,10 @@
     "VogueBold": "assets/VogueBold.ttf"
   },
   "color_schemes": {
-    "ACCESS-NRI": {
+    "ACCESS-NRI theme colours": {
       "primary": "212121",
       "secondary": "f1f1f1",
-      "tertiary": "faa61a",
+      "tertiary": "00adee",
       "quaternary": "000000",
       "header_background": "000000",
       "header_primary": "ffffff",
