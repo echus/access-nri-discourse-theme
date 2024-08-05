@@ -29,6 +29,15 @@ div.container.list-container {
   margin-bottom: 1em;
 }
 
+// Topic view
+div.container.posts {
+  border-radius: var(--border-radius);
+  background-color: var(--custom-text_background);
+  border: 2px solid var(--primary-low);
+  padding-left: 2ch;
+  padding-right: 3ch;
+}
+
 div#list-area {
   margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
 }
