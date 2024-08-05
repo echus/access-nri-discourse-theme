@@ -19,8 +19,7 @@ div.category-list-item.category {
 }
 
 // Topic list view
-body.category:not(.category-header) {
-  background-color: var(--secondary);
+body.category {
   div.container.list-container {
     padding-left: 1ch;
     padding-right: 2ch;
@@ -33,16 +32,18 @@ body.category:not(.category-header) {
 }
 
 // Topic view
-div.container.posts {
-  border-radius: var(--border-radius);
-  background-color: var(--custom-text_background);
-  border: 2px solid var(--primary-low);
-  padding-left: 2ch;
-  padding-right: 3ch;
-}
-
-div#list-area {
-  margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
+body.category:not(.category-header) {
+  background-color: var(--secondary);
+  div.container.posts {
+    border-radius: var(--border-radius);
+    background-color: var(--custom-text_background);
+    border: 2px solid var(--primary-low);
+    padding-left: 2ch;
+    padding-right: 3ch;
+  }
+  div#list-area {
+    margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
+  }
 }
 
 .category-title-header {
