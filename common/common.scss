@@ -150,6 +150,7 @@ body.search-page {
 
 // Category-view page header
 .category-title-header {
+  border: 2px solid var(--primary-very-low) !important;
   background-color: var(--custom-text_background);
   border-radius: 14px;
 }
