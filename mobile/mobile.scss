@@ -19,14 +19,17 @@ div.category-list-item.category {
 }
 
 // Topic list view
-div.container.list-container {
-  padding-left: 1ch;
-  padding-right: 2ch;
-  background-color: var(--custom-text_background);
-  border-radius: 10px;
-  border: 2px solid var(--primary-low);
-  padding-bottom: 0;
-  margin-bottom: 1em;
+body.category:not(.category-header) {
+  background-color: var(--secondary);
+  div.container.list-container {
+    padding-left: 1ch;
+    padding-right: 2ch;
+    background-color: var(--custom-text_background);
+    border-radius: 10px;
+    border: 2px solid var(--primary-low);
+    padding-bottom: 0;
+    margin-bottom: 1em;
+  }
 }
 
 // Topic view
@@ -40,10 +43,6 @@ div.container.posts {
 
 div#list-area {
   margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
-}
-
-body.category:not(.category-header) {
-  background-color: var(--secondary);
 }
 
 .category-title-header {
