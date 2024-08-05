@@ -41,9 +41,10 @@ body.category:not(.category-header) {
     padding-left: 2ch;
     padding-right: 3ch;
   }
-  div#list-area {
-    margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
-  }
+}
+
+div#list-area {
+  margin-bottom: 1em; // Get rid of huge 100px margin on bottom of list
 }
 
 .category-title-header {
