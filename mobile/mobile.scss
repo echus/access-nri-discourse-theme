@@ -13,7 +13,7 @@
 
 body.category:not(.category-header) {
   background-color: var(--custom-text_background);
-  background-color: red;
+  background-color: red !important;
 }
 
 .category-title-header {
