@@ -7,16 +7,10 @@
   margin-left: 65px;
 }
 
-@function get-color-var($number) {
-  @return "var(--category-" + $number + "-color)";
-}
-
+// Category list view
 div.category-list-item.category {
   border-style: solid;
-  border-width: 2px;
-  border: attr(style);
-  border-top: 2px solid get-color-var(attr(data-category-id)) !important;
-  border-bottom: 2px solid get-color-var(attr(data-category-id)) !important;
+  border: 2px solid var(--tertiary) !important;
   background-color: var(--custom-text_background);
   border-radius: var(--border-radius);
 }
