@@ -13,6 +13,7 @@ div.category-list-item.category {
   border-top: 2px !important;
   border-bottom: 2px !important;
   background-color: var(--custom-text_background);
+  border-radius: var(--border-radius);
 }
 
 body.category:not(.category-header) {
