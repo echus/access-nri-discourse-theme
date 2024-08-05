@@ -1,9 +1,14 @@
 :root {
+  --border-radius: 10px;
 }
 
 .topic-body div.topic-meta-data {
   margin-top: 0.5em;
   margin-left: 65px;
+}
+
+.category-list-item .category {
+  border: 3px solid red !important;
 }
 
 body.category:not(.category-header) {

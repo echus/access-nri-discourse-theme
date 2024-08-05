@@ -1,6 +1,6 @@
 // Default border radius
 :root {
-  --default-border-radius: 10px;
+  --border-radius: 10px;
 }
 
 // ACCESS-NRI branding font
@@ -65,12 +65,12 @@ input[type="text"],
 input[type="date"],
 input[type="number"] {
   background-color: var(--custom-text_background);
-  border-radius: var(--default-border-radius);
+  border-radius: var(--border-radius);
 }
 
 // Buttons
 button.btn {
-  border-radius: var(--default-border-radius);
+  border-radius: var(--border-radius);
 }
 
 // Dropdowns
@@ -80,14 +80,14 @@ details.multi-select.select-kit {
   summary.select-kit-header.multi-select-header,
   div.select-kit-body {
     background-color: var(--custom-text_background);
-    border-radius: var(--default-border-radius);
+    border-radius: var(--border-radius);
   }
 }
 
 details.select-kit.single-select.dropdown-select-box {
   summary.select-kit-header,
   div.select-kit-body {
-    border-radius: var(--default-border-radius);
+    border-radius: var(--border-radius);
   }
   div.select-kit-body {
     background-color: var(--custom-text_background);
@@ -115,18 +115,18 @@ div.search-banner {
 
 .search-menu div.search-menu-panel {
   background-color: var(--custom-text_background);
-  border-radius: var(--default-border-radius);
+  border-radius: var(--border-radius);
 }
 
 .search-menu div.search-input,
 .search-menu-container div.search-input {
   background-color: var(--custom-text_background);
-  border-radius: var(--default-border-radius);
+  border-radius: var(--border-radius);
 }
 
 div.search-menu-panel div.results {
   background-color: var(--custom-text_background);
-  border-radius: var(--default-border-radius);
+  border-radius: var(--border-radius);
 }
 
 // Navigation bar search results dropdown
@@ -143,7 +143,7 @@ body.search-page {
   div.search-results {
     & > div {
       background-color: var(--custom-text_background);
-      border-radius: var(--default-border-radius);
+      border-radius: var(--border-radius);
     }
   }
 }
