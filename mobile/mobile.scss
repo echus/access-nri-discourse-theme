@@ -10,9 +10,13 @@
 // Category list view
 div.category-list-item.category {
   border-style: solid;
-  border: 2px solid var(--quaternary) !important;
+  border: 2px solid var(--primary-low) !important;
   background-color: var(--custom-text_background);
   border-radius: var(--border-radius);
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1ch;
+  padding-right: 2ch;
 }
 
 body.category:not(.category-header) {
