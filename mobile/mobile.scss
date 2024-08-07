@@ -2,6 +2,19 @@
   --border-radius: 10px;
 }
 
+// Homepage search banner
+div.search-banner {
+  div.custom-search-banner-wrap {
+    h1 {
+      // Required for Dongle font to fix font sizing issue
+      font-size: 3rem;
+      line-height: 0.4;
+      margin-top: 0.5em;
+      // End required for Dongle font
+    }
+  }
+}
+
 // Category list view
 div.category-list-item.category {
   border-style: solid;
