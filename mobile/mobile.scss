@@ -10,6 +10,8 @@
 // Category list view
 div.category-list-item.category {
   border-style: solid;
+  // Border for category list view in mobile
+  // Comment this out if you want to use the default category colours
   border: 2px solid var(--tertiary) !important;
   background-color: var(--custom-text_background);
   border-radius: var(--border-radius);

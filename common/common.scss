@@ -9,7 +9,7 @@
   src: url($VogueBold) format("truetype");
 }
 
-// Navigation bar
+// Navigation bar icons
 header.d-header ul.d-header-icons {
   svg.d-icon {
     fill: var(--custom-nav_icon_color);
@@ -22,9 +22,9 @@ header.d-header ul.d-header-icons {
   }
   #search-button {
     border: 0px;
-  }
-  #search-button:after {
-    border: 0px;
+    &:after {
+      border: 0px;
+    }
   }
   span.icon:hover,
   button.icon:hover,
@@ -36,9 +36,9 @@ header.d-header ul.d-header-icons {
   }
 }
 
-// Burger menu
-// Burger menu icon color
+// Navigation bar burger menu
 .header-sidebar-toggle button .d-icon {
+  // Burger menu icon color
   color: var(--custom-nav_icon_color);
 }
 
@@ -47,11 +47,11 @@ header.d-header ul.d-header-icons {
   background: transparent !important;
 }
 
-// Burger menu icon hover color
 .discourse-no-touch .btn-flat:hover .d-icon,
 .discourse-no-touch .json-editor-btn-collapse:hover .d-icon,
 .discourse-no-touch .btn-flat:focus .d-icon,
 .discourse-no-touch .json-editor-btn-collapse:focus .d-icon {
+  // Burger menu icon hover color
   color: var(--custom-nav_icon_color_hover) !important;
 }
 
@@ -113,6 +113,7 @@ div.search-banner {
   }
 }
 
+// Navigation bar search menu
 .search-menu div.search-menu-panel {
   background-color: var(--custom-text_background);
   border-radius: var(--border-radius);
@@ -129,7 +130,7 @@ div.search-menu-panel div.results {
   border-radius: var(--border-radius);
 }
 
-// Navigation bar search results dropdown
+// Search page
 body.search-page {
   button.search-cta {
     font-weight: bold;
@@ -144,6 +145,7 @@ body.search-page {
     & > div {
       background-color: var(--custom-text_background);
       border-radius: var(--border-radius);
+      border: 2px solid var(--primary-low);
     }
   }
 }
