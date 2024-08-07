@@ -147,6 +147,9 @@ body.search-page {
       border-radius: var(--border-radius);
       border: 2px solid var(--primary-low);
     }
+    .loading-container {
+      padding: 2em 3ch 2em 2ch;
+    }
   }
 }
 
