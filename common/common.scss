@@ -143,11 +143,13 @@ body.search-page {
 
   div.search-results {
     & > div {
+      // Results container
       background-color: var(--custom-text_background);
       border-radius: var(--border-radius);
       border: 2px solid var(--primary-low);
     }
     .loading-container {
+      // No results container
       padding: 2em 3ch 2em 2ch;
     }
   }
