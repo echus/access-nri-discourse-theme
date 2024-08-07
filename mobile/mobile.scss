@@ -2,11 +2,6 @@
   --border-radius: 10px;
 }
 
-.topic-body div.topic-meta-data {
-  margin-top: 0.5em;
-  margin-left: 65px;
-}
-
 // Category list view
 div.category-list-item.category {
   border-style: solid;
@@ -33,7 +28,12 @@ body.category {
   }
 }
 
-// Topic view
+// Topic page view
+.topic-body div.topic-meta-data {
+  margin-top: 0.5em;
+  margin-left: 65px;
+}
+
 body.category:not(.category-header) {
   background-color: var(--secondary);
   div.container.posts {

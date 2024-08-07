@@ -6,7 +6,7 @@
   --small-border-radius: 7px;
 }
 
-// TODO: What is this?
+// Category page topic list styling
 body.category {
   table.category-list {
     div.topics,
@@ -43,8 +43,6 @@ body.search-page {
       }
     }
   }
-}
-div.search-menu-panel {
 }
 
 // Category list view
@@ -169,6 +167,7 @@ section.post-menu-area {
   margin-right: var(--topic-body-width-padding);
 }
 
+// All tables
 tbody {
   background-color: var(--custom-text_background);
 }
