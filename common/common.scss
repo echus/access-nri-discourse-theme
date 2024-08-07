@@ -104,10 +104,9 @@ div.search-banner {
       color: var(--custom-search_text_color);
       font-family: var(--branding-font);
       text-align: left;
-      white-space: nowrap;
       // Required for Dongle font to fix font sizing issue
       font-size: 4rem;
-      margin-bottom: -1rem;
+      line-height: 0.7;
       // End required for Dongle font
     }
     & > div.search-menu {
