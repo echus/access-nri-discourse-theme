@@ -157,6 +157,12 @@ div.topic-avatar {
   border-top: none !important;
 }
 
+// topic post
+// add margin when topic posts are adjacent
+.topic-post + .topic-post {
+  margin-top: 1em;
+}
+
 .small-action.topic-post-visited div.topic-post-visited-line,
 .small-action div.small-action-desc {
   width: 100%;
