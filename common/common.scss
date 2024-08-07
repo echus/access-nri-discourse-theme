@@ -1,12 +1,10 @@
+// Branding font
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
 // Default border radius
 :root {
+  --branding-font: Quicksand;
   --border-radius: 10px;
-}
-
-// ACCESS-NRI branding font
-@font-face {
-  font-family: VogueBold;
-  src: url($VogueBold) format("truetype");
 }
 
 // Navigation bar icons
@@ -103,7 +101,7 @@ div.search-banner {
     }
     h1 {
       color: var(--custom-search_text_color);
-      font-family: VogueBold;
+      font-family: var(--branding-font);
       text-align: left;
     }
     & > div.search-menu {

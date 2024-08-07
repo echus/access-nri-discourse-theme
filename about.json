@@ -7,9 +7,6 @@
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-    "VogueBold": "assets/VogueBold.ttf"
-  },
   "color_schemes": {
     "ACCESS-NRI theme colours": {
       "primary": "212121",
